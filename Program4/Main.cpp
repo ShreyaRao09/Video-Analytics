@@ -52,7 +52,7 @@ static void read_csv(const string& filename, vector<Mat>& images, vector<int>& l
 int main(int argc, char** argv)
 {
 	// Get the path to your CSV:
-	string fn_csv = "C:/train.csv"; //csv file containing paths of images and a class associated with it(1 = true(user image), 0 = false(images of others)). 
+	string fn_csv = "C:/train.csv"; //csv file containing paths of images and a class associated with it(0 = true(user image), 1 = false(images of others)). 
 	// These vectors hold the images and corresponding labels
 	vector<Mat> images;
 	vector<int> labels;
