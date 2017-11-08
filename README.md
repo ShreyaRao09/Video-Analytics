@@ -1,4 +1,4 @@
-VIDEO ANALYTICS
+#VIDEO ANALYTICS
 
 Programs involving video handling and analysis, event detection and object counting approaches.
 
