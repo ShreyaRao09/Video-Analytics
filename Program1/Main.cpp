@@ -362,7 +362,7 @@ int main(int argc, char **argv)
 {
     Mat I;
     
-    I = imread("..\Assignment 1\pic.png");
+    I = imread("..\pic.png");
     
     if (!I.data)
     {
